@@ -1,0 +1,42 @@
+
+body{
+    background-color: rgb(189, 189, 189);
+}
+form {
+    
+    margin: 0 auto;
+    width: 500px;
+    position: absolute; 
+	left: 200px;  
+	top: 110px; 
+}
+
+.formulario{
+    font-family: Arial;
+    font-size: 30px;
+    position: absolute; 
+	left: 0px; 
+	top: -70px;  
+}
+.container img { 
+    max-width:100pt;
+    max-height:100pt;
+    width: auto;
+    height: auto;
+    position: absolute; 
+	left: 0px; 
+	top: 0px; 
+     }
+     
+.email{
+    position: absolute; 
+	left: 135px;  
+	top: 35px; 
+}
+
+.nomecompleto{
+    position: absolute; 
+	left: 135px; 
+	top: 0px; 
+}
+
