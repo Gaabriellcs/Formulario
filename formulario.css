@@ -46,3 +46,8 @@ form {
 	top: 69px:
 	
 }
+.campo strong{
+	position: absolute; 
+	left: 135px;
+        top: 69px;
+}
