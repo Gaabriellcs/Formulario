@@ -1,35 +1,35 @@
-
 body .back img{
-	width:1720px;
+	width: 100% ;
 }
+
 form {
-    
-    	margin: 0 auto;
-    	width: 500px;
-    	position: absolute; 
+	margin: 0 auto;
+	width: 500px;
+	position: absolute; 
 	left: 200px;  
 	top: 110px; 
 }
 
 .formulario{
-    	font-family: Arial;
-    	font-size: 30px;
-    	position: absolute; 
+	font-family: Arial;
+	font-size: 30px;
+	position: absolute; 
 	left: 0px; 
 	top: -70px;  
 }
+
 .container img { 
-    	max-width:100pt;
-    	max-height:100pt;
-    	width: auto;
-    	height: auto;
-    	position: absolute; 
+	max-width:100pt;
+	max-height:100pt;
+	width: auto;
+	height: auto;
+	position: absolute; 
 	left: 0px; 
 	top: 0px; 
-     }
+}
      
 .email{
-    	position: absolute; 
+    position: absolute; 
 	left: 135px;  
 	top: 35px; 
 }
@@ -43,11 +43,51 @@ form {
 #celular{
 	position: absolute; 
 	left: 135px;
-	top: 69px:
+	top: 69px;
 	
 }
-.campo strong{
-	position: absolute; 
-	left: 135px;
-        top: 69px;
+#numero strong{
+	width: 302px;
+    position: absolute;
+    top: 72px;
+    left: 0px;
+}
+
+#email strong{
+position: absolute;
+    top: 41px;
+}
+
+.nascimento{
+	position: absolute;
+    top: 108px;
+}
+
+.objetivo {
+    position: absolute;
+    top: 145px;
+}
+
+.seletivo {
+    position: absolute;
+    top: 234px;
+}
+
+.tecnologias{
+	position: absolute;
+    top: 343px;
+}
+
+.Privacidade{
+	position: absolute;
+    top: 510px;
+}
+
+.historia{
+	position: absolute;
+    top: 568px;
+}
+.button{
+	position: absolute;
+    top: 647px;
 }
