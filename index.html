@@ -1,137 +1,138 @@
-    <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width= 0, initial-scale=1.0">
-        <title>Formulario</title>
-        <link rel="stylesheet" type="text/css" href="formulario.css" media="screen" />
-        <link rel="stylesheet" type="text/css" href="reset.css" media="screen" />
-        
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= 0, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="reset.css" media="screen" />
     
-    </head>
-    <body>
-            <div class="back">
-                <img src="942167.jpg"/>
-            </div>
-            <div class="container">
-                <img src="f51.png" />
-            </div>
-        <form>
-            <div class = "grupo">
-            <div class = "formulario">
-                <label for = "nome"><strong>Formulario de Inscrição</strong></label>
 
-            </div>
-            <div class = "campo">
-                    <label for="nome"><strong>Nome Completo:</strong></label>
-            </div>
+</head>
+<body>
+        <div class="back">
+            <img src="942167.jpg"/>
+        </div>
+        <div class="container">
+            <img src="f51.png" />
+        </div>
+    <form>
+        <div class = "grupo">
+        <div class = "formulario">
+            <label for = "nome"><strong>Formulario de Inscrição</strong></label>
 
-            <div class = "nomecompleto" >       
-                    <input type = "text" name = "nome" id = "nome" required>
-            </div>
-                <br>
+        </div>
+        <div class = "campo">
+                <label for="nome"><strong>Nome Completo:</strong></label>
+        </div>
 
-            <div class = "campo">
-                    <label for = "email"><strong> E-mail</strong></label>
-            </div>
+        <div class = "nomecompleto" >       
+                <input type = "text" name = "nome" id = "nome" required>
+        </div>
+            <br>
 
-            <div class = "email">
-                    <input type = "email" name = "E-mail" id = "email" required>
-            </div>
-                <br>
-            <div class = "campo">
-                    <label for="celular"><strong>Número de Celular</strong></label>
-            </div>
-            <div claas = "celular">
-                    <input type="celular" name = "celular" id = "celular" required>
-            </div>
-                <br>
-            <div class = "campo ">
-                    <label for="nascimento"><strong> Data de Nascimento: </strong></label>
-                    <input type = "date" name = "Data de Nascimento" id = "nascimento" checked>
-            </div>
-                <br>
+        <div class = "campo">
+                <label id = "email"><strong> E-mail</strong></label>
+        </div>
 
-            <div class = "campo">
-                    <label for = "objetivo"><strong> Qual é o seu objetivo?</strong></label>
-                 <br>
-                    <label for = "frontend"></label>
-                    <input type = "radio" name = "devweb" value = "frontend" checked> Ser Desenvolvedor Front-End
-                <br>
-                    <label for = "backend"></label>
-                    <input type = "radio" name = "devweb" value = "backend" checked> Ser um Desenvolvedor Back-End
-                <br>
-                    
-                    <input type = "radio" name = "devweb" value = "fullstack" checked> Ser Desenvolvedor Full-Stack
-                <br>
-                <br>
-            </div>
+        <div class = "email">
+                <input type = "email" name = "E-mail" id = "email" required>
+        </div>
+            <br>
+        <div class = "campo">
+                <label id="numero"><strong>Número de Celular</strong></label>
+        </div>
+        <div claas = "celular">
+                <input type="celular" name = "celular" id = "celular" required>
+        </div>
+            <br>
+            <br>
+        <div class = "nascimento ">
+                <label for="nascimento"><strong> Data de Nascimento: </strong></label>
+                <input type = "date" name = "Data de Nascimento" id = "nascimento" checked>
+        </div>
+            <br>
 
-            <div class = "campo">
-                    <label for = "seletivo"><strong>Como ficcou sabendo do nosso processo seletivo?</strong></label>  
-                <br>
-                    <label for = "likedin"></label>
-                    <input type = "radio" name = "processo" value = "likedin"  checked> Likedin
-                <br>
-                    <label for = "facebook"></label>
-                    <input type = "radio" name = "processo" value = "facebook" checked> Facebook
-                <br>
-                    <label for = "instagran"></label>
-                    <input type = "radio" name = "processo" value = "instagran" checked> instagran
-                <br>
-                    <label for = "indicacao"></label>
-                    <input type = "radio" name = "processo" value = "indicacao" checked> Indicação de amigos
-            </div>   
-                <br>
-            <div class="campo">
-                    <label for = "html"> <strong>Conhece ou ja trabalhou com alguma dessa tecnologias?</strong></label>
-                <br>
-                    <input type = "checkbox" name = "tecnologias" value = "html"  checkbox> HTML
-                <br>
-                <label for = "css"></label>
-                    <input type = "checkbox" name = "tecnologias" value = "css"  checkbox> CSS
-                <br>
-                <label for = "javaScript"></label>
-                    <input type = "checkbox" name = "tecnologias" value = "javaScript"  checkbox> JavaScript
-                <br>
-                <label for = "python"></label>
-                    <input type = "checkbox" name = "tecnologias" value = "python"  checkbox> Python
-                <br>
-                <label for = "php"></label>
-                    <input type = "checkbox" name = "tecnologias" value = "php"  checkbox> PHP
-                <br>
-                <label for = "java"></label>
-                    <input type = "checkbox" name = "tecnologias" value = "java"  checkbox> JAVA
-                <br>
-                <label for = "ruby"></label>
-                    <input type = "checkbox" name = "tecnologias" value = "ruby"  checkbox> Ruby
-                <br>
-                <br>
-             </div>
-                <div class = "campo">
-                    <label for = "politica"><strong>Concorda com nossa polita de Privacidade?</strong></label>
-                <br>
-                    <a href="url">Politica de Privacidade</a>
+        <div class = "objetivo">
+                <label for = "objetivo"><strong> Qual é o seu objetivo?</strong></label>
+             <br>
+                <label for = "frontend"></label>
+                <input type = "radio" name = "devweb" value = "frontend" checked> Ser Desenvolvedor Front-End
+            <br>
+                <label for = "backend"></label>
+                <input type = "radio" name = "devweb" value = "backend" checked> Ser um Desenvolvedor Back-End
+            <br>
+                
+                <input type = "radio" name = "devweb" value = "fullstack" checked> Ser Desenvolvedor Full-Stack
+            <br>
+            <br>
+        </div>
+
+        <div class = "seletivo">
+                <label for = "seletivo"><strong>Como ficou sabendo do nosso processo seletivo?</strong></label>  
+            <br>
+                <label for = "likedin"></label>
+                <input type = "radio" name = "processo" value = "likedin"  checked> Likedin
+            <br>
+                <label for = "facebook"></label>
+                <input type = "radio" name = "processo" value = "facebook" checked> Facebook
+            <br>
+                <label for = "instagran"></label>
+                <input type = "radio" name = "processo" value = "instagran" checked> instagran
+            <br>
+                <label for = "indicacao"></label>
+                <input type = "radio" name = "processo" value = "indicacao" checked> Indicação de amigos
+        </div>   
+            <br>
+        <div class="tecnologias">
+                <label for = "html"> <strong>Conhece ou ja trabalhou com alguma dessa tecnologias?</strong></label>
+            <br>
+                <input type = "checkbox" name = "tecnologias" value = "html"  checkbox> HTML
+            <br>
+            <label for = "css"></label>
+                <input type = "checkbox" name = "tecnologias" value = "css"  checkbox> CSS
+            <br>
+            <label for = "javaScript"></label>
+                <input type = "checkbox" name = "tecnologias" value = "javaScript"  checkbox> JavaScript
+            <br>
+            <label for = "python"></label>
+                <input type = "checkbox" name = "tecnologias" value = "python"  checkbox> Python
+            <br>
+            <label for = "php"></label>
+                <input type = "checkbox" name = "tecnologias" value = "php"  checkbox> PHP
+            <br>
+            <label for = "java"></label>
+                <input type = "checkbox" name = "tecnologias" value = "java"  checkbox> JAVA
+            <br>
+            <label for = "ruby"></label>
+                <input type = "checkbox" name = "tecnologias" value = "ruby"  checkbox> Ruby
+            <br>
+            <br>
+         </div>
+            <div class = "Privacidade">
+                <label for = "politica"><strong>Concorda com nossa polita de Privacidade?</strong></label>
+            <br>
+                <a href="url">Politica de Privacidade</a>
+        </div>
+            <br>
+        <div class = "historia"> 
+            <label for = "historia"><strong>Conte um pouco da sua historia:</strong></label>
+            <br>
+            <textarea id="msg"></textarea>
+            <br>
+            <br>
+        </div>
+            <div class="button">
+                <input button type="submit" value="Enviar">
+                <input type="reset" value="limpar" id="limpar">
+        </div>
+        </div>
+            <br>
+            <br>
+            <br>
             </div>
-                <br>
-            <div class = "campo"> 
-                <label for = "historia"><strong>Conte um pouco da sua historia:</strong></label>
-                <br>
-                <textarea id="msg"></textarea>
-                <br>
-                <br>
-            </div>
-                <div class="button">
-                    <input button type="submit" value="Enviar">
-                    <input type="reset" value="limpar" id="limpar">
-            </div>
-            </div>
-                <br>
-                <br>
-                <br>
-                </div>
-            </fieldset>
-        </form>
-    </body>
-    </html>
+        </fieldset>
+    </form>
+</body>
+</html>
